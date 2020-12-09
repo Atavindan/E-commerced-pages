@@ -25,7 +25,16 @@
 
   .total {
     margin-top: 30px;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-size: 36px;
+    .test-warning {
+      text-align: center;
+      margin: 0 auto;
+      color: #787878;
+      font-size: 24px;
+    }
   }
 }
